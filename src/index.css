@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:weight@300;400;500;600;700;800;900;&display=$wap');
+
+@layer base{
+  body{
+    @apply font-[Raleaway];
+  }
+  li{
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}

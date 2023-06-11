@@ -9,17 +9,17 @@ const Navbar = () => {
             <div>
                 <img src={Logo} alt='Logo' style={{ width: "80px" }} />
             </div>
-            <div >
-                <ul className='flex'>
+            
+                <ul className='hidden md:flex'>
                     <li>Home</li>
                     <li>About Me</li>
                     <li>Skills</li>
                     <li>Projects</li>
                     <li>Contact</li>
                 </ul>
-            </div >
+        
 
-            <div className='hidden'>
+            <div className='md:hidden'>
                 <FaBars />
             </div>
             <div className='hidden'>

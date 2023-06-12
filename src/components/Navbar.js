@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { FaBars, FaItems } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../assests/logo.png';
 
 
@@ -22,7 +22,7 @@ const Navbar = () => {
         
 
             <div onClick={handleClick} className='md:hidden z-10'>
-                <FaBars />
+                {!nav ? <FaBars/> : <FaTimes/>}
             </div>
             {/* Mobile View */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>

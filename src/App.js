@@ -2,6 +2,7 @@ import About from "./components/About";
 import Home from "./components/Home";
 import MySkills from "./components/MySkills";
 import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 
 
@@ -12,6 +13,7 @@ function App() {
       <Home/>
       <About/>
       <MySkills/>
+      <Projects/>
     </div>
   );
 }

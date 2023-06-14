@@ -1,6 +1,7 @@
 import React from 'react'
 
 
+
 const Projects = () => {
   return (
     <div name='projects' className='bg-[#0a192f] w-full md:h-screen text-gray-300 '>
@@ -11,7 +12,8 @@ h-full'>
         <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Projects</p>
         <p className='py-6'>Check out some of my works.</p>
     </div>
-    <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+    <div style={{}}
+     className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
         <div className='shadow-lg shadow-[040c16] group contianer round-ms flex justify-center items-center mx-auto content-div '>
             <span className='text-2xl font-bold text-white tracking-wider'>
                 React.js Application

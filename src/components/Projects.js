@@ -14,11 +14,30 @@ h-full'>
                 </div>
                 <div
                     className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer round-ms flex justify-center items-center mx-auto content-div '>
+                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer rounded-md flex justify-center items-center mx-auto content-div '>
                         {/* Hover effects */}
 
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                            <span className='text-2xl font-bold text-white tracking-wider pl-5 pr-5'>
+                                React.js Application
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='https://puspitagoswami.github.io/Weather_forecast/'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href='https://github.com/PuspitaGoswami/Weather_forecast'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer rounded-md flex justify-center items-center mx-auto content-div '>
+                        {/* Hover effects */}
+
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider pl-5 pr-5'>
                                 React.js Application
                             </span>
                             <div className='pt-8 text-center'>
@@ -33,11 +52,11 @@ h-full'>
 
 
                     </div>
-                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer round-ms flex justify-center items-center mx-auto content-div '>
+                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer rounded-md flex justify-center items-center mx-auto content-div '>
                         {/* Hover effects */}
 
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                            <span className='text-2xl font-bold text-white tracking-wider pl-5 pr-5'>
                                 React.js Application
                             </span>
                             <div className='pt-8 text-center'>
@@ -52,11 +71,11 @@ h-full'>
 
 
                     </div>
-                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer round-ms flex justify-center items-center mx-auto content-div '>
+                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer rounded-md flex justify-center items-center mx-auto content-div '>
                         {/* Hover effects */}
 
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                            <span className='text-2xl font-bold text-white tracking-wider pl-5 pr-5'>
                                 React.js Application
                             </span>
                             <div className='pt-8 text-center'>
@@ -71,11 +90,11 @@ h-full'>
 
 
                     </div>
-                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer round-ms flex justify-center items-center mx-auto content-div '>
+                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer rounded-md flex justify-center items-center mx-auto content-div '>
                         {/* Hover effects */}
 
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                            <span className='text-2xl font-bold text-white tracking-wider pl-5 pr-5'>
                                 React.js Application
                             </span>
                             <div className='pt-8 text-center'>
@@ -90,30 +109,11 @@ h-full'>
 
 
                     </div>
-                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer round-ms flex justify-center items-center mx-auto content-div '>
+                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer rounded-md flex justify-center items-center mx-auto content-div '>
                         {/* Hover effects */}
 
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                React.js Application
-                            </span>
-                            <div className='pt-8 text-center'>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                                </a>
-                                <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                </a>
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer round-ms flex justify-center items-center mx-auto content-div '>
-                        {/* Hover effects */}
-
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                            <span className='text-2xl font-bold text-white tracking-wider pl-5 pr-5'>
                                 React.js Application
                             </span>
                             <div className='pt-8 text-center'>

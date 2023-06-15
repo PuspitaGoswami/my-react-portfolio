@@ -1,7 +1,8 @@
 import React from 'react'
 import weather from '../assests/weatherApp.JPG';
 import tipCal from '../assests/tip-cal.JPG';
-
+import countDown from '../assests/count-down.JPG';
+import colorSwap from '../assests/color-swap.JPG';
 
 const Projects = () => {
     return (
@@ -53,7 +54,7 @@ h-full'>
 
 
                     </div>
-                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer rounded-md flex justify-center items-center mx-auto content-div '>
+                    <div style={{ backgroundImage: `url(${colorSwap})` }} className='shadow-lg shadow-[040c16] group contianer rounded-md flex justify-center items-center mx-auto content-div '>
                         {/* Hover effects */}
 
                         <div className='opacity-0 group-hover:opacity-100'>
@@ -72,7 +73,7 @@ h-full'>
 
 
                     </div>
-                    <div style={{ backgroundImage: `url(${weather})` }} className='shadow-lg shadow-[040c16] group contianer rounded-md flex justify-center items-center mx-auto content-div '>
+                    <div style={{ backgroundImage: `url(${countDown})` }} className='shadow-lg shadow-[040c16] group contianer rounded-md flex justify-center items-center mx-auto content-div '>
                         {/* Hover effects */}
 
                         <div className='opacity-0 group-hover:opacity-100'>

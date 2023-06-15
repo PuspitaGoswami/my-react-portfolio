@@ -10,8 +10,8 @@ const MySkills = () => {
   return (
    
     
-        <div name='skills' className='bg-[#0a192f] text-gray-300 py-4 w-full h-screen'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-auto justify-center w-full h-full'>
+        <div name='skills' className='bg-[#0a192f] text-gray-300 py-4 w-full h-screen flex justify-center items-center'>
+            <div className='max-w-[1000px] mx-auto p-4 flex flex-auto justify-center w-full'>
                 <div>
                     <p className='text-4xl inline border-b-4 border-pink-600 font-bold '>Skills</p>
                     <p className='py-4'>There are technologies I've worked with.</p>

@@ -6,7 +6,7 @@ import colorSwap from '../assests/color-swap.JPG';
 
 const Projects = () => {
     return (
-        <div name='projects' className='bg-[#0a192f] w-full md:h-screen text-gray-300 '>
+        <div name='projects' className='bg-[#0a192f] w-full md:h-screen text-gray-300 pt-20'>
 
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-f
 h-full'>

@@ -80,13 +80,13 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                        <a className='flex justify-between item-center w-full text-gray-300' href='/'>
+                        <a className='flex justify-between item-center w-full text-gray-300' href="mailto:puspitagoswami14@gmail.com">
                             Email <HiOutlineMail size={30} />
 
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-                        <a className='flex justify-between item-center w-full text-gray-300' href='/'>
+                        <a className='flex justify-between item-center w-full text-gray-300' href='https://docs.google.com/document/d/1bgMVNCAY7m3SxekHcKG3dUEDvy_jegPG8sLQqyFEq1Y/edit?usp=sharing'>
                             Resume <BsFillPersonLinesFill size={30} />
 
                         </a>
